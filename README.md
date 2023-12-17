@@ -226,5 +226,5 @@ https://github.com/JochiRaider/Domain_reputation_osint
 [license-shield]: https://img.shields.io/github/license/JochiRaider/Domain_reputation_osint.svg?style=for-the-badge
 [license-url]: https://github.com/JochiRaider/Domain_reputation_osint/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/aaron-kahn
 [product-screenshot]: images/screenshot.png

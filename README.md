@@ -36,7 +36,10 @@
 <h3 align="center">Domain Reputation Osint tool</h3>
 
   <p align="center">
-    A domain reputation analysis tool. This tool would gather data from multiple sources and aggregate it into a comprehensive assessment of a domain's potential risk or trustworthiness. This could be valuable for:  <li>Security analysts: Identifying potentially malicious domains. </li><li>Online businesses: Protecting themselves from phishing attacks and malware distribution. </li><li>Individuals: Making informed decisions about visiting unknown websites. </li>
+    A domain reputation analysis tool. This tool would gather data from multiple sources and aggregate it into a comprehensive assessment of a domain's potential risk or trustworthiness. This could be valuable for:  
+    <li>Security analysts: Identifying potentially malicious domains. </li>
+    <li>Online businesses: Protecting themselves from phishing attacks and malware distribution. </li>
+    <li>Individuals: Making informed decisions about visiting unknown websites.</li>
     <br />
     <a href="https://github.com/JochiRaider/Domain_reputation_osint"><strong>Explore the docs »</strong></a>
     <br />
@@ -90,14 +93,11 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://www.python.org/)
+* [Virus Total](https://docs.virustotal.com/)
+* [Google Safe Browsing (v4)](https://developers.google.com/safe-browsing/v4/lookup-api)
+* [urlscan.io](https://urlscan.io/docs/#api)
+* [Ipqualityscore](https://www.ipqualityscore.com/documentation/malicious-url-scanner-api/overview)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

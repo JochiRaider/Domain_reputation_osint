@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JochiRaider/Domain_reputation_osint">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width=auto height=auto>
   </a>
 
 <h3 align="center">Domain Reputation Osint tool</h3>

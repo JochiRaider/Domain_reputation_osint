@@ -4,16 +4,11 @@ import base64
 import csv
 import datetime
 
-with open('api_config.txt','r') as f:
-    config = json.loads(f.read())
-
-URL = config['virustotal']['url']
-KEY = config['virustotal']['key']
 
 class VirusTotal:
-    def __init__(self) -> None:
-        self.url_url=URL
-        self.api_key=KEY
+    def __init__(self,key,url_url) -> None:
+        self.url_url=url_url
+        self.api_key=key
 
     def virustotal_url_request(self, domain:str)->dict:
         target = domain.encode('ascii')
@@ -48,7 +43,7 @@ class VirusTotal:
                     }
         return data
     
-    def csv_writer(self,data:dict):
+    def csv_writer(self,data:list[dict]):
         fieldnames = ['domain','response','reputation','harmless','malicious','suspicious','undetected','timeout','times_submitted','Forcepoint ThreatSeeker','Sophos','BitDefender','Xcitium Verdict Cloud']
         date = datetime.datetime.now()
         filename = f"{date.strftime(r'%B')}_{date.strftime(r'%d')}_{date.strftime(r'%H')}_virustotal.csv"

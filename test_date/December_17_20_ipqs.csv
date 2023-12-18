@@ -1,0 +1,18 @@
+domain,status_code,unsafe,risk_score,ip_address,server,content_type,domain_rank,dns_valid,parking,spamming,malware,phishing,suspicious,adult,redirected,category,age
+reddit.com,403,False,0,151.101.1.140,s,text/html,31,True,False,False,False,False,False,False,False,News,2005-04-29T13:59:19-04:00
+thepiratebay.org,200,False,55,162.159.136.6,N/A,text/html,5777,True,False,False,False,False,True,False,False,Warez,2004-06-28T12:08:27-04:00
+testsafebrowsing.appspot.com,200,False,0,142.250.9.153,Google Fro,text/html; charset=utf-8,732,True,False,False,False,False,False,False,False,Computers & Internet,2005-03-09T21:27:55-05:00
+testsafebrowsing.appspot.com,200,False,0,142.250.9.153,Google Fro,text/html,732,True,False,False,False,False,False,False,False,Computers & Internet,2005-03-09T21:27:55-05:00
+taobao.com,200,False,0,59.82.122.115,N/A,text/html; charset=utf-8,56,True,False,False,False,False,False,False,False,Shopping,2003-04-20T23:50:05-04:00
+w3schools.com,200,False,0,13.248.240.135,ECS (agb/52B2),text/html,339,True,False,False,False,False,False,False,False,Education,2000-03-21T08:54:41-05:00
+asaqw.com,0,False,92,,N/A,,0,False,False,False,False,False,True,False,False,N/A,2023-12-17T20:53:30-05:00
+asd.co.az,404,False,75,127.0.0.1,,text/html; charset=UTF-8,0,True,False,False,False,False,True,False,False,N/A,2023-12-17T20:53:31-05:00
+amazon.com,200,False,0,205.251.242.103,N/A,text/html;charset=UTF-8,15,True,False,False,False,False,False,False,False,Shopping,1994-11-01T00:00:00-05:00
+stackoverflow.com,200,False,0,104.18.32.7,cloudflare,text/html; charset=utf-8,144,True,False,False,False,False,False,False,False,Forum,2003-12-26T14:18:07-05:00
+github.com,200,False,0,140.82.114.4,GitHub.com,text/html; charset=utf-8,30,True,False,False,False,False,False,False,False,Computers & internet,2007-10-09T14:20:50-04:00
+bard.google.com,200,False,0,64.233.177.138,N/A,text/html; charset=utf-8,1,True,False,False,False,False,False,False,False,Search Engines,1997-09-15T00:00:00-04:00
+sorcerers.net,200,False,0,72.52.157.45,N/A,text/html; charset=UTF-8,237785,True,False,False,False,False,False,False,False,Gaming,2000-03-22T13:18:27-05:00
+pasteio.com,200,True,100,104.21.57.139,cloudflare,text/html; charset=UTF-8,388859,True,False,False,True,True,True,False,False,Movies & video,2017-07-05T11:49:55-04:00
+testsafebrowsing.appspot.com,200,False,0,142.250.9.153,Google Fro,text/html,732,True,False,False,False,False,False,False,False,Computers & Internet,2005-03-09T21:27:55-05:00
+testsafebrowsing.appspot.com,200,True,100,142.250.9.153,Google Fro,text/html,732,True,False,False,True,True,True,False,False,Computers & Internet,2005-03-09T21:27:55-05:00
+testsafebrowsing.appspot.com,200,True,100,142.250.9.153,Google Fro,text/html,732,True,False,False,True,True,True,False,False,Computers & Internet,2005-03-09T21:27:55-05:00

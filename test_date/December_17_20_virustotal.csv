@@ -1,0 +1,18 @@
+domain,response,reputation,harmless,malicious,suspicious,undetected,timeout,times_submitted,Forcepoint ThreatSeeker,Sophos,BitDefender,Xcitium Verdict Cloud
+reddit.com,200,325,74,0,0,16,0,6335,message boards and forums,blogs and forums,timewasters,entertainment
+thepiratebay.org,200,53,72,0,0,18,0,4311,peer-to-peer file sharing,peer to peer and torrents,piracy,illegal software
+http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL,200,0,69,1,1,19,0,6,information technology,information technology,misc,information security
+https://testsafebrowsing.appspot.com/s/trick_to_bill.html,200,0,67,4,0,19,0,32,information technology,information technology,misc,media sharing
+taobao.com,200,-105,74,1,0,15,0,3203,internet auctions,online shopping,onlineshop,mobile communications
+w3schools.com,200,11,72,0,0,18,0,3236,information technology,information technology,advice,education & reference
+asaqw.com,404,,,,,,,,,,,
+asd.co.az,404,,,,,,,,,,,
+amazon.com,200,95,75,0,0,15,0,15919,shopping,online shopping,onlineshop,shopping
+stackoverflow.com,200,15,73,0,0,17,0,11818,information technology,information technology,advice,professional networking 
+github.com,200,134,73,0,1,16,0,12036,information technology,information technology,computersandsoftware,web applications
+bard.google.com,200,0,73,0,0,17,0,26,generative ai - text & code,search engines,,
+sorcerers.net,200,0,71,0,0,19,0,483,entertainment,games,occult,media sharing
+https://pasteio.com/raw/x2H2co6Gs8xf,200,0,66,6,1,17,0,1,personal network storage and backup,spyware and malware,misc,online services
+https://testsafebrowsing.appspot.com/s/unwanted.html,200,-7,64,7,1,18,0,48,information technology,information technology,misc,media sharing
+https://testsafebrowsing.appspot.com/s/malware.html,200,0,66,5,1,18,0,145,information technology,spyware and malware,misc,
+https://testsafebrowsing.appspot.com/s/phishing.html,200,15,66,4,1,19,0,322,information technology,spyware and malware,misc,information security

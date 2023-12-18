@@ -5,7 +5,7 @@ import json
 with open('test_domains.txt','r') as q:
     domains = q.readlines()
     
-domains = [x.replace('\n','') for x in domains]
+domains = [x.replace('\n','').replace('[.]','.') for x in domains]
 
 with open('api_config.txt','r') as f:
     config = json.loads(f.read())

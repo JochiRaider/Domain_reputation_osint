@@ -96,8 +96,8 @@
 * [Python](https://www.python.org/)
 * [Virus Total](https://docs.virustotal.com/)
 * [Google Safe Browsing (v4)](https://developers.google.com/safe-browsing/v4/lookup-api)
-* [urlscan.io](https://urlscan.io/docs/#api)
-* [Ipqualityscore](https://www.ipqualityscore.com/documentation/malicious-url-scanner-api/overview)
+* [URLHaus](https://urlhaus.abuse.ch/)
+* [IP_Quality_Score](https://www.ipqualityscore.com/documentation/malicious-url-scanner-api/overview)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

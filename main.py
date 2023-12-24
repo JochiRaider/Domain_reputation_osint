@@ -1,6 +1,6 @@
 import virustotal 
 import googleSB
-import IPQS
+import ipqualityscore
 import urlhaus
 import datapresentation
 import datetime
@@ -28,7 +28,7 @@ def main():
     date = datetime.datetime.now()
 
     vt = virustotal.VirusTotal(VT_KEY,VT_URL)
-    ipqs = IPQS.IPQS(IPQS_KEY,IPQS_URL) 
+    ipqs = ipqualityscore.IPQS(IPQS_KEY,IPQS_URL) 
     gsb = googleSB.GoogleSafeBrowsing(GSB_KEY,GSB_URL,GSB_ID)
     uhaus = urlhaus.URLHaus()
 

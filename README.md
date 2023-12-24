@@ -97,7 +97,7 @@
 * [Virus Total](https://docs.virustotal.com/)
 * [Google Safe Browsing (v4)](https://developers.google.com/safe-browsing/v4/lookup-api)
 * [URLHaus](https://urlhaus.abuse.ch/)
-* [IP_Quality_Score](https://www.ipqualityscore.com/documentation/malicious-url-scanner-api/overview)
+* [IP Quality Score](https://www.ipqualityscore.com/documentation/malicious-url-scanner-api/overview)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

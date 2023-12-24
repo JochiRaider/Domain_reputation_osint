@@ -1,7 +1,5 @@
 import requests
 import json
-import csv
-import datetime
 
 class GoogleSafeBrowsing():
     def __init__(self,key:str,url:str,id:str) -> None:
@@ -9,7 +7,7 @@ class GoogleSafeBrowsing():
         self.url = url
         self.id = id
 
-    def SafeBrowsing_request(self, domains:list[str]):
+    def SafeBrowsing_request(self, domains:list[str])->dict[str:dict]:
         payload = {
             "client":{
                 "clientId": self.id, 
@@ -34,35 +32,33 @@ class GoogleSafeBrowsing():
                         matches = [match for match in response.json()['matches'] if match['threat']['url'] == domain]
                         if matches: 
                             results.append({
-                                'domain': domain,
-                                'malicious': True,
-                                'platforms': ','.join(list(set([b['platformType'] for b in matches]))),
-                                'threats': ','.join(list(set([b['threatType'] for b in matches]))),
-                                'cache': min([b["cacheDuration"] for b in matches])
+                                'url': domain,
+                                'safe_browsing_hit': True,
+                                'platforms_gsb': ','.join(list(set([b['platformType'] for b in matches]))),
+                                'threats_gsb': ','.join(list(set([b['threatType'] for b in matches]))),
+                                'cache_gsb': min([b["cacheDuration"] for b in matches])
                             })
                         else:
                             results.append({
-                                'domain': domain,
-                                'malicious': False
+                                'url': domain,
+                                'safe_browsing_hit': False
                             })  
             else:
-                return None
-
+                for domain in domains:
+                    results.append({
+                        'url': domain,
+                        'safe_browsing_hit': False
+                        })
+                return {result['url']: result for result in results}
         else:
-            return None
-        return results
+            for domain in domains:
+                results.append({
+                    'url': domain,
+                    'safe_browsing_hit': False
+                    })
+            return {result['url']: result for result in results}
+        return {result['url']: result for result in results}
     
-    def csv_writer(self,data:list[dict]):
-        fieldnames = ['domain','malicious','platforms','threats','cache']
-        date = datetime.datetime.now()
-        filename = f"{date.strftime(r'%B')}_{date.strftime(r'%d')}_{date.strftime(r'%H')}_google_safe_browsing.csv"
-        with open(filename,'w',newline='') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames, restval='')
-            writer.writeheader()
-            writer.writerows(data)
 
 def main():
     pass
-
-if __name__=='__main__':
-    main()

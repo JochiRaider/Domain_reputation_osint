@@ -43,14 +43,14 @@
     <li>Online businesses: Protecting themselves from phishing attacks and malware distribution. </li>
     <li>Individuals: Making informed decisions about visiting unknown websites.</li>
     <br />
-    <a href="https://github.com/JochiRaider/Domain_reputation_osint"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/JochiRaider/URL_Research_Tool"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JochiRaider/Domain_reputation_osint">View Demo</a>
+    <a href="https://github.com/JochiRaider/URL_Research_Tool">View Demo</a>
     ·
-    <a href="https://github.com/JochiRaider/Domain_reputation_osint/issues">Report Bug</a>
+    <a href="https://github.com/JochiRaider/URL_Research_Tool/issues">Report Bug</a>
     ·
-    <a href="https://github.com/JochiRaider/Domain_reputation_osint/issues">Request Feature</a>
+    <a href="https://github.com/JochiRaider/URL_Research_Tool/issues">Request Feature</a>
   </p>
 </div>
 
@@ -124,7 +124,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/JochiRaider/Domain_reputation_osint.git
+   git clone https://github.com/JochiRaider/URL_Research_Tool.git
    ```
 3. Install NPM packages
    ```sh
@@ -158,7 +158,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [] Feature 3
     - [] Nested Feature
 
-See the [open issues](https://github.com/JochiRaider/Domain_reputation_osint/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/JochiRaider/URL_Research_Tool/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,9 +194,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@](https://twitter.com/) - jochikahn@gmail.com
-
-Project Link: [https://github.com/JochiRaider/Domain_reputation_osint](https://github.com/JochiRaider/Domain_reputation_osint)
+Project Link: [https://github.com/JochiRaider/URL_Research_Tool](https://github.com/JochiRaider/URL_Research_Tool)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -211,20 +209,20 @@ Project Link: [https://github.com/JochiRaider/Domain_reputation_osint](https://g
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-https://github.com/JochiRaider/Domain_reputation_osint
+https://github.com/JochiRaider/URL_Research_Tool
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/JochiRaider/Domain_reputation_osint.svg?style=for-the-badge
-[contributors-url]: https://github.comJochiRaider/Domain_reputation_osint/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JochiRaider/Domain_reputation_osint.svg?style=for-the-badge
-[forks-url]: https://github.com/JochiRaider/Domain_reputation_osint/network/members
-[stars-shield]: https://img.shields.io/github/stars/JochiRaider/Domain_reputation_osint.svg?style=for-the-badge
-[stars-url]: https://github.com/JochiRaider/Domain_reputation_osint/stargazers
-[issues-shield]: https://img.shields.io/github/issues/JochiRaider/Domain_reputation_osint.svg?style=for-the-badge
-[issues-url]: https://github.com/JochiRaider/Domain_reputation_osint/issues
-[license-shield]: https://img.shields.io/github/license/JochiRaider/Domain_reputation_osint.svg?style=for-the-badge
-[license-url]: https://github.com/JochiRaider/Domain_reputation_osint/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/JochiRaider/URL_Research_Tool.svg?style=for-the-badge
+[contributors-url]: https://github.com/JochiRaider/URL_Research_Tool/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/JochiRaider/URL_Research_Tool.svg?style=for-the-badge
+[forks-url]: https://github.com/JochiRaider/URL_Research_Tool/network/members
+[stars-shield]: https://img.shields.io/github/stars/JochiRaider/URL_Research_Tool.svg?style=for-the-badge
+[stars-url]: https://github.com/JochiRaider/URL_Research_Tool/stargazers
+[issues-shield]: https://img.shields.io/github/issues/JochiRaider/URL_Research_Tool.svg?style=for-the-badge
+[issues-url]: https://github.com/JochiRaider/URL_Research_Tool/issues
+[license-shield]: https://img.shields.io/github/license/JochiRaider/URL_Research_Tool.svg?style=for-the-badge
+[license-url]: https://github.com/JochiRaider/URL_Research_Tool/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aaron-kahn
 [product-screenshot]: images/screenshot.png

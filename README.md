@@ -83,9 +83,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="images//Screenshot%202023-12-26%20233959.png" alt="Logo" width= 75% height=auto align="center">
-[![Product Name Screen Shot][product-screenshot]]
-
+<div align="center">
+<img src="images/Screenshot%202023-12-26%20233959.png" alt="screenshot" width=auto height=auto align="center">
+<img src="images/Screenshot%202023-12-26%20234554.png" alt="screenshot" width=auto height=auto align="center">
+<img src="images/Screenshot%202023-12-26%20234726.png alt="screenshot" width=auto height=auto align="center">
+[![Product Name Screen Shot][product-screenshot]](https://github.com/JochiRaider/URL_Research_Tool/images/)
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 

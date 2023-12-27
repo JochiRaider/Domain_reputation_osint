@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href=""https://github.com/JochiRaider/URL_Research_Tool/raw/main/test_date/December_26_21_28_results.html"">
+  <a href="https://github.com/JochiRaider/URL_Research_Tool/raw/main/test_date/December_26_21_28_results.html">
     <img src="images/logo_old.png" alt="Logo" width= 75% height=auto>
   </a>
 

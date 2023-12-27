@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JochiRaider/URL_Research_Tool/raw/main/test_date/December_26_21_28_results.html">
+  <a href="https://github.com/JochiRaider/URL_Research_Tool/blob/main/images/Screenshot%202023-12-26.png">
     <img src="images/logo_old.png" alt="Logo" width= 75% height=auto>
   </a>
 
@@ -84,7 +84,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/JochiRaider/URL_Research_Tool/blob/main/images/Screenshot%202023-12-26.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

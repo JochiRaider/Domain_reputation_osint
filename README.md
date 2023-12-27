@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JochiRaider/URL_Research_Tool/blob/main/images/Screenshot%202023-12-26.png">
-    <img src="images/logo_old.png" alt="Logo" width= 75% height=auto align="center">
+    <img src="images/logo_old.png" alt="Logo" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
   </a>
 
 

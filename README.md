@@ -24,14 +24,16 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<a href="https://github.com/JochiRaider/URL_Research_Tool/raw/main/test_date/December_26_21_28_results.html">
+<href="https://github.com/JochiRaider/URL_Research_Tool/raw/main/test_date/December_26_21_28_results.html">
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JochiRaider/Domain_reputation_osint">
+  <a href=""https://github.com/JochiRaider/URL_Research_Tool/raw/main/test_date/December_26_21_28_results.html"">
     <img src="images/logo.png" alt="Logo" width="450" height=auto>
   </a>
+
+
 
 <h3 align="center">Domain Reputation Osint tool</h3>
 

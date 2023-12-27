@@ -16,9 +16,9 @@ class VirusTotal:
         response = requests.get(url, headers=headers)
         if response.ok:
             result = json.loads(response.text)
-            result['data']['attributes']['categories'].setdefault('Forcepoint ThreatSeeker','')
-            result['data']['attributes']['categories'].setdefault('Sophos','')
-            result['data']['attributes']['categories'].setdefault('Xcitium Verdict Cloud','')
+            result['data']['attributes']['categories'].setdefault('Forcepoint ThreatSeeker','N/A')
+            result['data']['attributes']['categories'].setdefault('Sophos','N/A')
+            
             not_good_hits = result['data']['attributes']['last_analysis_stats']['malicious'] + result['data']['attributes']['last_analysis_stats']['suspicious']
             not_seen_hits = result['data']['attributes']['last_analysis_stats']['undetected'] + result['data']['attributes']['last_analysis_stats']['timeout']
             data = {
@@ -29,8 +29,7 @@ class VirusTotal:
                     'bad_vt':not_good_hits,
                     'not_seen_vt':not_seen_hits,
                     'Forcepoint ThreatSeeker':result['data']['attributes']['categories']['Forcepoint ThreatSeeker'],
-                    'Sophos':result['data']['attributes']['categories']['Sophos'],
-                    'Xcitium Verdict Cloud':result['data']['attributes']['categories']['Xcitium Verdict Cloud']
+                    'Sophos':result['data']['attributes']['categories']['Sophos']
                     }
             try:
                 crowdsourced_context = result['data']['attributes']['crowdsourced_context'][0]

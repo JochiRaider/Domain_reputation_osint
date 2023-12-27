@@ -85,7 +85,7 @@
 ## About The Project
 <div align="center">
 <img src="images/Screenshot%202023-12-26%20235802.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
-<img src="images/Screenshot%202023-12-27%20000138.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
+<img src="images/Screenshot%202023-12-27%20001523.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
 <img src="images/Screenshot%202023-12-27%20001204.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
 
 </div>

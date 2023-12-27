@@ -39,10 +39,10 @@
 
   <p align="center">
     A URL Research Tool gathers data from multiple sources and aggregate it into a comprehensive report. 
-    <br />
+    <br/>
     <a href="https://github.com/JochiRaider/URL_Research_Tool"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <br/>
+    <br/>
     <a href="https://github.com/JochiRaider/URL_Research_Tool">View Demo</a>
     ·
     <a href="https://github.com/JochiRaider/URL_Research_Tool/issues">Report Bug</a>
@@ -222,4 +222,4 @@ https://github.com/JochiRaider/URL_Research_Tool
 [license-url]: https://github.com/JochiRaider/URL_Research_Tool/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aaron-kahn
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/Screenshot 2023-12-26.png

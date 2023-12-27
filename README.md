@@ -84,10 +84,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-<img src="images/Screenshot%202023-12-26%20235802.png" alt="screenshot" width=auto height=auto align="center">
-<img src="images/Screenshot%202023-12-27%20000138.png" alt="screenshot" width=auto height=auto align="center">
-<img src="images/Screenshot%202023-12-27%20000346.png" alt="screenshot" width=auto height=auto align="center">
-[![Product Name Screen Shot][product-screenshot]](https://github.com/JochiRaider/URL_Research_Tool/tree/main/images)
+<img src="images/Screenshot%202023-12-26%20235802.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
+<img src="images/Screenshot%202023-12-27%20000138.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
+<img src="images/Screenshot%202023-12-27%20000346.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
+
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 

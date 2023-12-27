@@ -34,8 +34,7 @@ def main():
     ipqs = ipqualityscore.IPQS(IPQS_KEY,IPQS_URL) 
     gsb = googleSB.GoogleSafeBrowsing(GSB_KEY,GSB_URL,GSB_ID)
     uhaus = urlhaus.URLHaus()
-    dp = datapresentation.DataPresentation(fieldnames,filename,results_list) 
-    
+        
     gsb_r = gsb.SafeBrowsing_request(domains)
     for domain in domains:
        
@@ -45,7 +44,8 @@ def main():
         gsb_r_d = gsb_r[domain]
         
         results_list.append(vt_r | uhaus_r | ipqs_r | gsb_r_d)
-
+        
+    dp = datapresentation.DataPresentation(fieldnames,filename,results_list) 
     dp.csv_writer()
     dp.html_report_gen()
 

@@ -23,7 +23,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 <!-- PROJECT LOGO -->
@@ -224,5 +224,5 @@ https://github.com/JochiRaider/URL_Research_Tool
 [license-shield]: https://img.shields.io/github/license/JochiRaider/URL_Research_Tool.svg?style=for-the-badge
 [license-url]: https://github.com/JochiRaider/URL_Research_Tool/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/aaron-kahn
+
 [product-screenshot]: images/Screenshot 2023-12-26.png

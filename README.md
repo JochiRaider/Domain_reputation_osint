@@ -35,13 +35,10 @@
 
 
 
-<h3 align="center">Domain Reputation Osint tool</h3>
+<h3 align="center">URL Research Tool</h3>
 
   <p align="center">
-    A domain reputation analysis tool. This tool would gather data from multiple sources and aggregate it into a comprehensive assessment of a domain's potential risk or trustworthiness. This could be valuable for:  
-    <li>Security analysts: Identifying potentially malicious domains. </li>
-    <li>Online businesses: Protecting themselves from phishing attacks and malware distribution. </li>
-    <li>Individuals: Making informed decisions about visiting unknown websites.</li>
+    A URL Research Tool gathers data from multiple sources and aggregate it into a comprehensive report. 
     <br />
     <a href="https://github.com/JochiRaider/URL_Research_Tool"><strong>Explore the docs »</strong></a>
     <br />

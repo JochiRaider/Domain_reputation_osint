@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JochiRaider/URL_Research_Tool/blob/main/images/Screenshot%202023-12-26.png">
-    <img src="images/logo_old.png" alt="Logo" width= 75% height=auto>
+    <img src="images/logo_old.png" alt="Logo" width= 75% height=auto align="center">
   </a>
 
 
@@ -83,7 +83,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="images//Screenshot%202023-12-26%20233959.png" alt="Logo" width= 75% height=auto>
+<img src="images//Screenshot%202023-12-26%20233959.png" alt="Logo" width= 75% height=auto align="center">
 [![Product Name Screen Shot][product-screenshot]]
 
 <p align="right">(<a href="#top">back to top</a>)</p>

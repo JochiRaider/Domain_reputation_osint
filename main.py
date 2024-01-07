@@ -29,7 +29,11 @@ def main():
     with open('test_domains.txt','r') as q:
         domains = q.readlines()
         domains = [x.replace('\n','').replace('[.]','.') for x in domains]
-     
+    
+    with open('email_parts.txt','r') as f:
+        email_parts = json.loads(f.read())
+
+
     vt = virustotal.VirusTotal(VT_KEY,VT_URL)
     ipqs = ipqualityscore.IPQS(IPQS_KEY,IPQS_URL) 
     gsb = googleSB.GoogleSafeBrowsing(GSB_KEY,GSB_URL,GSB_ID)
@@ -37,7 +41,6 @@ def main():
         
     gsb_r = gsb.SafeBrowsing_request(domains)
     for domain in domains:
-       
         vt_r = vt.virustotal_url_request(domain) 
         uhaus_r = uhaus.query_urlhaus(domain)
         ipqs_r = ipqs.IpQS_url_request(domain)
@@ -47,7 +50,7 @@ def main():
         
     dp = datapresentation.DataPresentation(fieldnames,filename,results_list) 
     dp.csv_writer()
-    dp.html_report_gen()
+    dp.html_report_gen(email_parts['header'],email_parts['footer'])
 
 if __name__=='__main__':
     main()

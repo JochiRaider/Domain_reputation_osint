@@ -85,7 +85,7 @@
 ## About The Project
 <div align="center">
 <img src="images/Screenshot%202024-01-07%20140409.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
-
+<img src="images/Screenshot_2024-01-07_140705.png" alt="screenshot" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
 
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -115,6 +115,16 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+## Configuration
+To configure the tool, edit the `api_config.txt` file as follows:
+
+```json
+{
+  "virustotal": {"key": "YOUR_API_KEY", "url": "API_ENDPOINT"},
+  "googlesafebrowser": {"key": "YOUR_API_KEY", "url": "API_ENDPOINT", "ID": "YOUR_CLIENT_ID"},
+  "ipqualityscore": {"key": "YOUR_API_KEY", "url": "API_ENDPOINT"},
+  "urlhaus": {"key": "YOUR_API_KEY", "url": "API_ENDPOINT"}
+}
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.

@@ -118,9 +118,9 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* requests
   ```sh
-  npm install npm@latest -g
+  pip install requests
   ```
 
 ### Installation
@@ -130,13 +130,17 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/JochiRaider/URL_Research_Tool.git
    ```
-3. Install NPM packages
+3. Install requests library 
    ```sh
-   npm install
+   pip install requests
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Enter your API in `api_config.txt`
+   ```py
+   {  "virustotal":{"key":"=","url_url":"https://www.virustotal.com/api/v3/urls/"},
+      "googlesafebrowser":{"key":"=","ID":"domain-reputation-408400","url":"https://safebrowsing.googleapis.com/v4/threatMatches:find"},
+      "ipqualityscore":{"key":"=","url":"https://www.ipqualityscore.com/api/json/url/"},
+      "urlscanio":{"key":"=","url":"https://urlscan.io/api/v1/scan/"}
+   }
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -146,9 +150,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To run the project, execute the main.py script:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

@@ -40,7 +40,7 @@
   <p align="center">
     This Proof of Concept (PoC) project provides an integrated security analysis tool that checks URLs and domains against multiple security threat databases. It uses APIs from VirusTotal, Google Safe Browsing, IPQualityScore, and URLHaus to assess and compile data on potential threats, providing outputs in both CSV and HTML formats.
   <br/>  
-  Features
+  <h4>Features</h4>
   <li>API Integration: Seamless use of VirusTotal, Google Safe Browsing, IPQualityScore, and URLHaus APIs.
   <li>Comprehensive Reports: Outputs are provided in CSV for data analysis and HTML for user-friendly views.
   <li>Configurable: Uses a configuration file (api_config.txt) to manage API keys and endpoints, allowing for easy updates.    

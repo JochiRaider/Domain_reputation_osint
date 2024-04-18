@@ -39,10 +39,11 @@
 
   <p align="center">
     This Proof of Concept (PoC) project provides an integrated security analysis tool that checks URLs and domains against multiple security threat databases. It uses APIs from VirusTotal, Google Safe Browsing, IPQualityScore, and URLHaus to assess and compile data on potential threats, providing outputs in both CSV and HTML formats.
+  <br/>  
   Features
-  API Integration: Seamless use of VirusTotal, Google Safe Browsing, IPQualityScore, and URLHaus APIs.
-  Comprehensive Reports: Outputs are provided in CSV for data analysis and HTML for user-friendly views.
-  Configurable: Uses a configuration file (api_config.txt) to manage API keys and endpoints, allowing for easy updates.    
+  <li>API Integration: Seamless use of VirusTotal, Google Safe Browsing, IPQualityScore, and URLHaus APIs.
+  <li>Comprehensive Reports: Outputs are provided in CSV for data analysis and HTML for user-friendly views.
+  <li>Configurable: Uses a configuration file (api_config.txt) to manage API keys and endpoints, allowing for easy updates.    
   <br/>
     <a href="https://github.com/JochiRaider/URL_Research_Tool"><strong>Explore the docs »</strong></a>
     <br/>

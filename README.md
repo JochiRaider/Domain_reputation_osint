@@ -136,7 +136,8 @@ This is an example of how to list things you need to use the software and how to
    ```
 4. Enter your API in `api_config.txt`
    ```py
-   {  "virustotal":{"key":"=","url_url":"https://www.virustotal.com/api/v3/urls/"},
+   {  
+      "virustotal":{"key":"=","url_url":"https://www.virustotal.com/api/v3/urls/"},
       "googlesafebrowser":{"key":"=","ID":"domain-reputation-408400","url":"https://safebrowsing.googleapis.com/v4/threatMatches:find"},
       "ipqualityscore":{"key":"=","url":"https://www.ipqualityscore.com/api/json/url/"},
       "urlscanio":{"key":"=","url":"https://urlscan.io/api/v1/scan/"}
